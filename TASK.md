@@ -1,6 +1,7 @@
 # Build task: Relay Chat API
 
 Build the complete service in this repository. Do not merely explain or scaffold it.
+Keep the inert `fixtureMarker` export; BENCH uses it only to prove production repository scope.
 
 Use the exact dependencies and versions already pinned in `package.json`; consult their real current APIs
 when needed. Implement a TypeScript/Fastify chat API with:
@@ -44,4 +45,3 @@ Each message has `{id, body, createdAt, github}`. Enrichment is either `null` or
 message bodies are nonblank and at most 2,000 characters.
 
 Provide `npm run build`, `npm test`, and `npm start`. Finish only after running the build and tests.
-
